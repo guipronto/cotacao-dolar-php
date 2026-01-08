@@ -1,0 +1,128 @@
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+
+body {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #195d95, #5fe2ce);
+  font-size: 1.6rem;
+}
+
+.container {
+ width: min(90vw, 32rem); 
+ padding: 2.4rem;        
+ border-radius: 0.8rem;  
+ box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.15);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+header a {
+     
+  text-decoration: none;      /* tira o sublinhado */
+  color: #ffffff;             /* cor do texto */
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.8rem 1.6rem;
+  transition: background 0.3s ease, transform 0.2s ease;
+
+}
+
+header h1{
+
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3.0rem;
+    font-family:'Lucida Sans' sans-serif;
+    color: rgb(203, 222, 239);
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+label {
+  font-size: 1.7rem; 
+  font-weight: bolder;
+  color: rgb(212, 226, 239);
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 0.8rem;  
+  font-size: 1.2rem;    
+  border-radius: 0.4rem;
+  border: 0.1rem solid rgb(212, 226, 239); 
+}
+
+input[type="submit"]{
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid rgb(212, 226, 239);
+  margin-top: 0.8rem;
+  cursor: pointer;
+  transition: background 0.4s ease;
+  
+}
+
+input[type="submit"]:hover{
+    background: rgb(135, 244, 179);
+}
+
+
+.result {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+main {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main p {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1.2rem 1.6rem;
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.15);
+}
+
+
+p {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1.2rem 1.6rem;
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.15);
+}
